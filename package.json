@@ -10,7 +10,8 @@
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist --remote github",
+        "start": "react-scripts start"
     },
     "devDependencies": {
         "@types/react": "^18.2.38",
@@ -24,13 +25,14 @@
     },
     "dependencies": {
         "@chakra-ui/react": "^2.8.2",
-        "@emotion/react": "^11.11.1",
+        "@emotion/react": "^11.11.3",
         "@emotion/styled": "^11.11.0",
         "framer-motion": "^10.16.15",
         "gh-pages": "^6.1.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-icons": "^4.12.0",
-        "react-router-dom": "^6.20.1"
+        "react-router-dom": "^6.20.1",
+        "react-scripts": "^5.0.1"
     }
 }

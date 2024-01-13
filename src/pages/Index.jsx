@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Button, VStack, Text, Heading, Container, useToast } from "@chakra-ui/react";
 import { FaStopwatch, FaRedo, FaPlay } from "react-icons/fa";
 
+console.log("hello fro, index")
 const Index = () => {
   const [startTime, setStartTime] = useState(null);
   const [counter, setCounter] = useState(null);

@@ -11,6 +11,8 @@ const colors = {
   },
 };
 
+console.log("hello world");
+
 const theme = extendTheme({ colors });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
